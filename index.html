@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>K-POP 소개</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .fade-in {
+            opacity: 0;
+            transform: translateY(16px);
+            animation: fadeInUp 0.9s ease forwards;
+        }
+        .delay-1 { animation-delay: 0.2s; }
+        .delay-2 { animation-delay: 0.4s; }
+        .delay-3 { animation-delay: 0.6s; }
+        .delay-4 { animation-delay: 0.8s; }
+        .delay-5 { animation-delay: 1s; }
+        .delay-6 { animation-delay: 1.2s; }
+        .delay-7 { animation-delay: 1.4s; }
+        .delay-8 { animation-delay: 1.6s; }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900 text-white min-h-screen">
+    <div class="relative overflow-hidden">
+        <div class="absolute inset-0 opacity-30 blur-3xl bg-[radial-gradient(circle_at_top,_#38bdf8,_transparent_45%),radial-gradient(circle_at_bottom,_#1d4ed8,_transparent_50%)]"></div>
+        <div class="relative z-10 px-6 py-12 lg:py-16 max-w-6xl mx-auto">
+            <nav class="fade-in delay-1 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-white/10 bg-white/5 px-5 py-4 shadow-lg shadow-blue-900/40 backdrop-blur">
+                <a href="index.html" class="text-lg font-semibold tracking-wide text-sky-200">
+                    Global Pop Guide
+                </a>
+                <div class="flex flex-wrap items-center gap-3 text-sm font-medium text-slate-100">
+                    <a href="index.html" aria-current="page" class="px-3 py-1 rounded-full bg-sky-500/20 border border-sky-400/60 text-white shadow-inner shadow-sky-900/30">K-POP</a>
+                    <a href="us-pop.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">미국 팝</a>
+                    <a href="uk-pop.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">영국 팝</a>
+                    <a href="jp-pop.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">일본 팝</a>
+                    <a href="latin-pop.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">라틴 팝</a>
+                </div>
+            </nav>
+            <header id="kpop" class="fade-in delay-2 text-center space-y-4">
+                <p class="uppercase tracking-[0.3em] text-sky-300 text-xs md:text-sm">K-Culture Spotlight</p>
+                <h1 class="text-4xl md:text-5xl font-semibold bg-gradient-to-r from-sky-300 via-blue-200 to-indigo-200 bg-clip-text text-transparent">
+                    K-POP, 파란 물결로 세계를 물들이다
+                </h1>
+                <p class="text-slate-200 max-w-3xl mx-auto">
+                    파워풀한 퍼포먼스, 촘촘한 서사, 그리고 팬덤의 디지털 역량이 결합해
+                    글로벌 음악 시장의 판도를 바꾼 현상을 소개합니다.
+                </p>
+                <div class="flex flex-wrap justify-center gap-3 text-sm text-sky-200">
+                    <span class="px-3 py-1 rounded-full border border-sky-500/50 bg-sky-500/10">역사</span>
+                    <span class="px-3 py-1 rounded-full border border-blue-500/50 bg-blue-500/10">퍼포먼스</span>
+                    <span class="px-3 py-1 rounded-full border border-indigo-500/50 bg-indigo-500/10">팬덤</span>
+                </div>
+            </header>
+
+            <main class="mt-12 space-y-10">
+                <section class="fade-in delay-3 grid gap-6 lg:grid-cols-[1.2fr_0.8fr] bg-white/5 border border-white/10 rounded-3xl p-6 md:p-10 shadow-2xl shadow-blue-900/40">
+                    <div>
+                        <h2 class="text-2xl font-semibold text-sky-200 mb-4">K-POP 연대기</h2>
+                        <p class="text-slate-100 leading-relaxed">
+                            1990년대 서태지와 아이들을 기점으로 아이돌 트레이닝 시스템이 정착했고,
+                            2000년대 1세대 아이돌의 일본·중국 진출로 동아시아 팬층이 확대되었습니다.
+                            2010년대에는 SNS와 유튜브 덕분에 빌보드 상위권 진입이 잦아졌으며,
+                            2020년대에는 팬 참여형 플랫폼과 메타버스 공연 등 디지털 실험이 본격화되었습니다.
+                        </p>
+                    </div>
+                    <div class="bg-slate-900/40 border border-white/5 rounded-2xl p-5 text-sm text-slate-200 space-y-3">
+                        <div>
+                            <p class="text-sky-300 font-medium">2000s</p>
+                            <p>해외 공략 시작, 동아시아 팬덤 확대</p>
+                        </div>
+                        <div>
+                            <p class="text-sky-300 font-medium">2010s</p>
+                            <p>유튜브·SNS 기반 글로벌 화제, 빌보드 차트 진입</p>
+                        </div>
+                        <div>
+                            <p class="text-sky-300 font-medium">2020s</p>
+                            <p>플랫폼 혁신, 온라인 팬덤 경제, 메타버스 공연</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="fade-in delay-4 grid gap-6 md:grid-cols-2">
+                    <div class="bg-gradient-to-br from-blue-900/70 to-slate-900/60 border border-blue-700/40 rounded-3xl p-6 md:p-8 shadow-xl shadow-blue-900/30">
+                        <h2 class="text-2xl font-semibold text-sky-200 mb-5">음악·퍼포먼스 특징</h2>
+                        <ul class="space-y-4 text-slate-100">
+                            <li class="flex gap-3">
+                                <span class="text-sky-400">•</span>
+                                <span>팝, 힙합, EDM, 재즈까지 장르를 융합해 매 앨범마다 새로운 사운드를 시도</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-sky-400">•</span>
+                                <span>포토북·AR 카드 등 피지컬 굿즈와 디지털 콘텐츠를 결합한 앨범 전략</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-sky-400">•</span>
+                                <span>수십 명의 안무진이 만들어내는 군무 중심 무대와 영화적 뮤직비디오</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-gradient-to-br from-slate-900/60 to-indigo-900/70 border border-indigo-700/40 rounded-3xl p-6 md:p-8 shadow-xl shadow-blue-900/30">
+                        <h2 class="text-2xl font-semibold text-indigo-100 mb-5">대표 아티스트</h2>
+                        <ul class="space-y-3 text-slate-100">
+                            <li><span class="text-sky-300 font-semibold">BTS</span> — 사회적 메시지와 자체 프로듀싱으로 그래미 후보 지명</li>
+                            <li><span class="text-sky-300 font-semibold">BLACKPINK</span> — 월드투어와 패션 브랜드 협업으로 글로벌 위상 강화</li>
+                            <li><span class="text-sky-300 font-semibold">NewJeans</span> — 2000년대 감성 재해석과 바이럴 마케팅으로 급부상</li>
+                            <li><span class="text-sky-300 font-semibold">SEVENTEEN</span> — 유닛 시스템·셀프 프로듀싱으로 퍼포먼스와 음악성 모두 인정</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="fade-in delay-5 grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+                    <div class="bg-white/5 border border-white/10 rounded-3xl p-6 md:p-8 shadow-xl shadow-blue-900/40">
+                        <h2 class="text-2xl font-semibold text-sky-200 mb-4">팬덤 문화와 영향</h2>
+                        <p class="text-slate-100 mb-4">
+                            팬덤은 스트리밍 총공, 해시태그 챌린지, 기부 프로젝트 등 조직적인 캠페인으로
+                            아티스트 브랜드 파워를 키웁니다. 해외 언론은 이러한 디지털 행동을 K-POP 확산의
+                            핵심 요인으로 평가하며, 정부 역시 한류 진흥 정책을 통해 문화 수출 산업으로 지원합니다.
+                        </p>
+                        <p class="text-slate-200 text-sm">
+                            동시에 과도한 경쟁 구조, 선정성 논란, 짧은 활동 주기 등 비판도 존재해
+                            지속 가능한 생태계를 위한 논의가 이어지고 있습니다.
+                        </p>
+                    </div>
+                    <div class="fade-in delay-6 bg-gradient-to-br from-blue-800/60 to-indigo-900/70 border border-blue-700/30 rounded-3xl p-6 md:p-8 shadow-2xl shadow-blue-900/40">
+                        <h3 class="text-xl font-semibold text-sky-200 mb-4">한눈에 보는 K-POP</h3>
+                        <dl class="space-y-4 text-slate-100">
+                            <div>
+                                <dt class="text-sky-300 text-sm">핵심 키워드</dt>
+                                <dd class="text-lg">스토리텔링 · 디지털 팬덤 · 퍼포먼스</dd>
+                            </div>
+                            <div>
+                                <dt class="text-sky-300 text-sm">팬덤 활동</dt>
+                                <dd class="text-lg">SNS 캠페인, 스트리밍, 크라우드 펀딩</dd>
+                            </div>
+                            <div>
+                                <dt class="text-sky-300 text-sm">지속 가능성 과제</dt>
+                                <dd class="text-lg">과열 경쟁 완화, 아티스트 권익 보호</dd>
+                            </div>
+                        </dl>
+                    </div>
+                </section>
+
+                <section class="fade-in delay-7 bg-white/5 border border-white/10 rounded-3xl p-6 md:p-8 text-center shadow-xl shadow-blue-900/40">
+                    <h2 class="text-2xl font-semibold text-sky-200 mb-3">더 알아보기</h2>
+                    <p class="text-slate-100 mb-4">
+                        위 내용은 위키백과 K-POP 문서를 바탕으로 작성되었습니다.
+                        연대기와 특징, 논쟁점에 대한 더 깊은 분석은 아래 링크에서 확인할 수 있습니다.
+                    </p>
+                    <a
+                        href="https://ko.wikipedia.org/wiki/K-pop"
+                        target="_blank"
+                        rel="noreferrer"
+                        class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-sky-500 to-blue-600 text-white font-semibold shadow-lg shadow-blue-900/40 hover:scale-[1.02] transition"
+                    >
+                        위키백과에서 자세히 보기
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </section>
+            </main>
+
+            <footer class="fade-in delay-8 text-center text-slate-300 mt-12 text-sm">
+                © 2025 K-POP Guide · Inspired by Wikipedia
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
+
