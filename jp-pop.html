@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>일본 팝 소개</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .fade-in {
+            opacity: 0;
+            transform: translateY(16px);
+            animation: fadeInUp 0.9s ease forwards;
+        }
+        .delay-1 { animation-delay: 0.2s; }
+        .delay-2 { animation-delay: 0.4s; }
+        .delay-3 { animation-delay: 0.6s; }
+        .delay-4 { animation-delay: 0.8s; }
+        .delay-5 { animation-delay: 1s; }
+        .delay-6 { animation-delay: 1.2s; }
+        .delay-7 { animation-delay: 1.4s; }
+        .delay-8 { animation-delay: 1.6s; }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-slate-950 via-rose-950 to-indigo-950 text-white min-h-screen">
+    <div class="relative overflow-hidden">
+        <div class="absolute inset-0 opacity-30 blur-3xl bg-[radial-gradient(circle_at_top,_#fb7185,_transparent_45%),radial-gradient(circle_at_bottom,_#7c3aed,_transparent_55%)]"></div>
+        <div class="relative z-10 px-6 py-12 lg:py-16 max-w-6xl mx-auto">
+            <nav class="fade-in delay-1 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-white/10 bg-white/5 px-5 py-4 shadow-lg shadow-rose-900/40 backdrop-blur">
+                <a href="index.html" class="text-lg font-semibold tracking-wide text-rose-200">
+                    Global Pop Guide
+                </a>
+                <div class="flex flex-wrap items-center gap-3 text-sm font-medium text-slate-100">
+                    <a href="index.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">K-POP</a>
+                    <a href="us-pop.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">미국 팝</a>
+                    <a href="uk-pop.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">영국 팝</a>
+                    <a href="jp-pop.html" aria-current="page" class="px-3 py-1 rounded-full bg-rose-500/20 border border-rose-300/60 text-white shadow-inner shadow-rose-900/30">일본 팝</a>
+                    <a href="latin-pop.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">라틴 팝</a>
+                </div>
+            </nav>
+            <header class="fade-in delay-2 text-center space-y-4">
+                <p class="uppercase tracking-[0.3em] text-rose-200 text-xs md:text-sm">J-Pop Spotlight</p>
+                <h1 class="text-4xl md:text-5xl font-semibold bg-gradient-to-r from-rose-100 via-pink-100 to-purple-100 bg-clip-text text-transparent">
+                    일본 팝, 서정성과 기술미학의 만남
+                </h1>
+                <p class="text-slate-200 max-w-3xl mx-auto">
+                    시티팝의 세련된 코드 진행부터 애니송, 보컬로이드, 아이돌 문화에 이르기까지
+                    일본 팝은 장르와 미디어를 넘나들며 감성적인 멜로디와 독창적 세계관을 구축했습니다.
+                </p>
+                <div class="flex flex-wrap justify-center gap-3 text-sm text-rose-50">
+                    <span class="px-3 py-1 rounded-full border border-rose-500/50 bg-rose-500/10">City Pop</span>
+                    <span class="px-3 py-1 rounded-full border border-pink-500/50 bg-pink-500/10">Idol</span>
+                    <span class="px-3 py-1 rounded-full border border-purple-500/50 bg-purple-500/10">Vocaloid</span>
+                </div>
+            </header>
+
+            <main class="mt-12 space-y-10">
+                <section class="fade-in delay-3 grid gap-6 lg:grid-cols-[1.2fr_0.8fr] bg-white/5 border border-white/10 rounded-3xl p-6 md:p-10 shadow-2xl shadow-rose-900/40">
+                    <div>
+                        <h2 class="text-2xl font-semibold text-rose-100 mb-4">일본 팝 연대기</h2>
+                        <p class="text-slate-100 leading-relaxed">
+                            1970~80년대 시티팝과 뉴뮤직이 도시 생활을 노래했고, 1990년대에는
+                            X JAPAN, GLAY 등 비주얼계가 록과 팝을 결합했습니다. 2000년대 이후에는
+                            하츠네 미쿠를 비롯한 보컬로이드와 애니송 시장, 48·46 그룹 시스템이
+                            거대한 팬덤 생태계를 만들었습니다.
+                        </p>
+                    </div>
+                    <div class="bg-slate-900/40 border border-white/5 rounded-2xl p-5 text-sm text-slate-200 space-y-3">
+                        <div>
+                            <p class="text-rose-200 font-medium">1980s</p>
+                            <p>시티팝, 뉴뮤직, 퓨전 재즈 감성</p>
+                        </div>
+                        <div>
+                            <p class="text-rose-200 font-medium">1990s</p>
+                            <p>비주얼 록과 J-락의 대중화</p>
+                        </div>
+                        <div>
+                            <p class="text-rose-200 font-medium">2000s~</p>
+                            <p>아이돌, 애니송, 보컬로이드 플랫폼</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="fade-in delay-4 grid gap-6 md:grid-cols-2">
+                    <div class="bg-gradient-to-br from-rose-900/70 to-slate-900/60 border border-rose-700/40 rounded-3xl p-6 md:p-8 shadow-xl shadow-rose-900/30">
+                        <h2 class="text-2xl font-semibold text-rose-100 mb-5">사운드 특징</h2>
+                        <ul class="space-y-4 text-slate-100">
+                            <li class="flex gap-3">
+                                <span class="text-rose-300">•</span>
+                                <span>도시적 코드 진행, 재즈·퓨전 성향의 화성</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-rose-300">•</span>
+                                <span>애니메이션·게임 IP와 연동된 스토리텔링</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-rose-300">•</span>
+                                <span>프로듀서 시스템과 아이돌 트레이닝, 팬 참여형 이벤트</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-gradient-to-br from-slate-900/60 to-purple-900/70 border border-purple-700/40 rounded-3xl p-6 md:p-8 shadow-xl shadow-rose-900/30">
+                        <h2 class="text-2xl font-semibold text-purple-100 mb-5">대표 아티스트</h2>
+                        <ul class="space-y-3 text-slate-100">
+                            <li><span class="text-rose-200 font-semibold">Yumi Matsutoya</span> — 시티팝과 뉴뮤직의 서정성</li>
+                            <li><span class="text-rose-200 font-semibold">Namie Amuro</span> — 댄스 팝·R&B 하이브리드</li>
+                            <li><span class="text-rose-200 font-semibold">Perfume</span> — 테크노팝과 미래지향적 무대</li>
+                            <li><span class="text-rose-200 font-semibold">YOASOBI</span> — 소설 기반 서사와 디지털 감성</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="fade-in delay-5 grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+                    <div class="bg-white/5 border border-white/10 rounded-3xl p-6 md:p-8 shadow-xl shadow-rose-900/40">
+                        <h2 class="text-2xl font-semibold text-rose-100 mb-4">문화와 산업</h2>
+                        <p class="text-slate-100 mb-4">
+                            오리콘 차트, NHK 홍백가합전, 애니메이션 제작사와의 협업 구조가
+                            일본 팝 생태계를 지탱합니다. 지역 아이돌과 2.5차원 무대, VR 라이브 등
+                            팬과의 직접 소통을 중시하는 실험이 활발합니다.
+                        </p>
+                        <p class="text-slate-200 text-sm">
+                            동시에 장기적 연습생 시스템과 노동 강도, 음원 수익 배분 같은 이슈에 대한 개선 요구도 이어집니다.
+                        </p>
+                    </div>
+                    <div class="fade-in delay-6 bg-gradient-to-br from-rose-800/60 to-indigo-900/70 border border-rose-700/30 rounded-3xl p-6 md:p-8 shadow-2xl shadow-rose-900/40">
+                        <h3 class="text-xl font-semibold text-rose-100 mb-4">한눈에 보기</h3>
+                        <dl class="space-y-4 text-slate-100">
+                            <div>
+                                <dt class="text-rose-200 text-sm">핵심 키워드</dt>
+                                <dd class="text-lg">시티팝 · 애니송 · 아이돌</dd>
+                            </div>
+                            <div>
+                                <dt class="text-rose-200 text-sm">대표 무대</dt>
+                                <dd class="text-lg">NHK 홍백가합전, Nippon Budokan, 애니송 페스</dd>
+                            </div>
+                            <div>
+                                <dt class="text-rose-200 text-sm">산업 과제</dt>
+                                <dd class="text-lg">연습생 복지, 디지털 전환, 해외 진출</dd>
+                            </div>
+                        </dl>
+                    </div>
+                </section>
+
+                <section class="fade-in delay-7 bg-white/5 border border-white/10 rounded-3xl p-6 md:p-8 text-center shadow-xl shadow-rose-900/40">
+                    <h2 class="text-2xl font-semibold text-rose-100 mb-3">더 알아보기</h2>
+                    <p class="text-slate-100 mb-4">
+                        일본 대중음악의 역사와 장르별 세부 정보는 위키백과 J-POP 문서에서 확인할 수 있습니다.
+                    </p>
+                    <a
+                        href="https://ko.wikipedia.org/wiki/J-POP"
+                        target="_blank"
+                        rel="noreferrer"
+                        class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-rose-500 to-purple-600 text-white font-semibold shadow-lg shadow-rose-900/40 hover:scale-[1.02] transition"
+                    >
+                        위키백과에서 자세히 보기
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </section>
+            </main>
+
+            <footer class="fade-in delay-8 text-center text-slate-300 mt-12 text-sm">
+                © 2025 Global Pop Guide · Inspired by Wikipedia
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
+

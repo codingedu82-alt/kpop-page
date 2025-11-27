@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>영국 팝 소개</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .fade-in {
+            opacity: 0;
+            transform: translateY(16px);
+            animation: fadeInUp 0.9s ease forwards;
+        }
+        .delay-1 { animation-delay: 0.2s; }
+        .delay-2 { animation-delay: 0.4s; }
+        .delay-3 { animation-delay: 0.6s; }
+        .delay-4 { animation-delay: 0.8s; }
+        .delay-5 { animation-delay: 1s; }
+        .delay-6 { animation-delay: 1.2s; }
+        .delay-7 { animation-delay: 1.4s; }
+        .delay-8 { animation-delay: 1.6s; }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-950 via-blue-950 to-slate-900 text-white min-h-screen">
+    <div class="relative overflow-hidden">
+        <div class="absolute inset-0 opacity-30 blur-3xl bg-[radial-gradient(circle_at_top,_#818cf8,_transparent_45%),radial-gradient(circle_at_bottom,_#2563eb,_transparent_55%)]"></div>
+        <div class="relative z-10 px-6 py-12 lg:py-16 max-w-6xl mx-auto">
+            <nav class="fade-in delay-1 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-white/10 bg-white/5 px-5 py-4 shadow-lg shadow-indigo-900/40 backdrop-blur">
+                <a href="index.html" class="text-lg font-semibold tracking-wide text-indigo-200">
+                    Global Pop Guide
+                </a>
+                <div class="flex flex-wrap items-center gap-3 text-sm font-medium text-slate-100">
+                    <a href="index.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">K-POP</a>
+                    <a href="us-pop.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">미국 팝</a>
+                    <a href="uk-pop.html" aria-current="page" class="px-3 py-1 rounded-full bg-indigo-500/20 border border-indigo-300/60 text-white shadow-inner shadow-indigo-900/30">영국 팝</a>
+                    <a href="jp-pop.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">일본 팝</a>
+                    <a href="latin-pop.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">라틴 팝</a>
+                </div>
+            </nav>
+            <header class="fade-in delay-2 text-center space-y-4">
+                <p class="uppercase tracking-[0.3em] text-indigo-300 text-xs md:text-sm">UK Pop Spotlight</p>
+                <h1 class="text-4xl md:text-5xl font-semibold bg-gradient-to-r from-indigo-200 via-blue-100 to-slate-100 bg-clip-text text-transparent">
+                    영국 팝, 실험성과 클래식 감성의 공존
+                </h1>
+                <p class="text-slate-200 max-w-3xl mx-auto">
+                    비틀즈의 브리티시 인베이전부터 브릿팝, 신스팝, 오늘날의 얼터너티브 씬까지
+                    영국 팝은 독창적인 사운드와 사회적 메시지를 결합하며 꾸준히 글로벌 트렌드를 이끌고 있습니다.
+                </p>
+                <div class="flex flex-wrap justify-center gap-3 text-sm text-indigo-100">
+                    <span class="px-3 py-1 rounded-full border border-indigo-500/50 bg-indigo-500/10">British Invasion</span>
+                    <span class="px-3 py-1 rounded-full border border-blue-500/50 bg-blue-500/10">Britpop</span>
+                    <span class="px-3 py-1 rounded-full border border-purple-500/50 bg-purple-500/10">Glastonbury</span>
+                </div>
+            </header>
+
+            <main class="mt-12 space-y-10">
+                <section class="fade-in delay-3 grid gap-6 lg:grid-cols-[1.2fr_0.8fr] bg-white/5 border border-white/10 rounded-3xl p-6 md:p-10 shadow-2xl shadow-indigo-900/40">
+                    <div>
+                        <h2 class="text-2xl font-semibold text-indigo-200 mb-4">영국 팝 연대기</h2>
+                        <p class="text-slate-100 leading-relaxed">
+                            1960년대 비틀즈·롤링 스톤스의 미국 상륙으로 브리티시 인베이전이 촉발되었고,
+                            1980년대 뉴웨이브·신스팝이 전자음악의 새 지평을 열었습니다. 1990년대에는 오아시스와 블러가
+                            브릿팝 신드롬을 일으켰고, 2010년대 이후에는 아델과 두아 리파가 소울과 일렉트로닉 감성을 재해석하고 있습니다.
+                        </p>
+                    </div>
+                    <div class="bg-slate-900/40 border border-white/5 rounded-2xl p-5 text-sm text-slate-200 space-y-3">
+                        <div>
+                            <p class="text-indigo-300 font-medium">1960s</p>
+                            <p>브리티시 인베이전과 런던 스윙씬</p>
+                        </div>
+                        <div>
+                            <p class="text-indigo-300 font-medium">1980s</p>
+                            <p>뉴웨이브, 신스팝, 포스트펑크 감성</p>
+                        </div>
+                        <div>
+                            <p class="text-indigo-300 font-medium">1990s~</p>
+                            <p>브릿팝, UK 개러지, 얼터너티브 R&B</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="fade-in delay-4 grid gap-6 md:grid-cols-2">
+                    <div class="bg-gradient-to-br from-indigo-900/70 to-slate-900/60 border border-indigo-700/40 rounded-3xl p-6 md:p-8 shadow-xl shadow-indigo-900/30">
+                        <h2 class="text-2xl font-semibold text-indigo-100 mb-5">사운드 특징</h2>
+                        <ul class="space-y-4 text-slate-100">
+                            <li class="flex gap-3">
+                                <span class="text-indigo-400">•</span>
+                                <span>록 밴드 기반의 리프와 전자음악 프로덕션의 결합</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-indigo-400">•</span>
+                                <span>사회·정치 이슈를 담은 가사, 풍자와 유머가 공존</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-indigo-400">•</span>
+                                <span>BBC 라디오와 라이브 하우스 문화가 키운 공연 중심 생태계</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-gradient-to-br from-slate-900/60 to-purple-900/70 border border-purple-700/40 rounded-3xl p-6 md:p-8 shadow-xl shadow-indigo-900/30">
+                        <h2 class="text-2xl font-semibold text-purple-100 mb-5">대표 아티스트</h2>
+                        <ul class="space-y-3 text-slate-100">
+                            <li><span class="text-indigo-200 font-semibold">The Beatles</span> — 멜로디 혁신과 스튜디오 실험</li>
+                            <li><span class="text-indigo-200 font-semibold">Queen</span> — 장르를 넘나드는 극장형 록 퍼포먼스</li>
+                            <li><span class="text-indigo-200 font-semibold">Adele</span> — 클래식한 보컬과 현대적 소울 발라드</li>
+                            <li><span class="text-indigo-200 font-semibold">Dua Lipa</span> — 디스코 리바이벌과 팝 클럽 사운드</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="fade-in delay-5 grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+                    <div class="bg-white/5 border border-white/10 rounded-3xl p-6 md:p-8 shadow-xl shadow-indigo-900/40">
+                        <h2 class="text-2xl font-semibold text-indigo-100 mb-4">문화적 영향</h2>
+                        <p class="text-slate-100 mb-4">
+                            글래스톤베리, 브릿 어워드, BBC 사운드 오브 더 이어 등 영국 특유의 음악 플랫폼은
+                            신인 발굴과 실험적 프로젝트를 지원합니다. 패션·아트 스쿨과의 협업이 활발해
+                            뮤직비디오와 무대 연출에서도 독특한 시각적 미학이 강조됩니다.
+                        </p>
+                        <p class="text-slate-200 text-sm">
+                            브렉시트 이후 음악인 이동성, 공연 비자 문제 등 산업 과제에 대한 논의도 이어집니다.
+                        </p>
+                    </div>
+                    <div class="fade-in delay-6 bg-gradient-to-br from-indigo-800/60 to-blue-900/70 border border-indigo-700/30 rounded-3xl p-6 md:p-8 shadow-2xl shadow-indigo-900/40">
+                        <h3 class="text-xl font-semibold text-indigo-100 mb-4">한눈에 보기</h3>
+                        <dl class="space-y-4 text-slate-100">
+                            <div>
+                                <dt class="text-indigo-300 text-sm">핵심 키워드</dt>
+                                <dd class="text-lg">브릿팝 · 뉴웨이브 · 라이브 하우스</dd>
+                            </div>
+                            <div>
+                                <dt class="text-indigo-300 text-sm">대표 무대</dt>
+                                <dd class="text-lg">Glastonbury, BBC Radio 1 Live Lounge</dd>
+                            </div>
+                            <div>
+                                <dt class="text-indigo-300 text-sm">산업 과제</dt>
+                                <dd class="text-lg">투어 비자, 지역 공연장 보존</dd>
+                            </div>
+                        </dl>
+                    </div>
+                </section>
+
+                <section class="fade-in delay-7 bg-white/5 border border-white/10 rounded-3xl p-6 md:p-8 text-center shadow-xl shadow-indigo-900/40">
+                    <h2 class="text-2xl font-semibold text-indigo-100 mb-3">더 알아보기</h2>
+                    <p class="text-slate-100 mb-4">
+                        영국 팝과 관련한 역사·장르 정보는 위키백과 영국 음악 문서에서 더 확인할 수 있습니다.
+                    </p>
+                    <a
+                        href="https://ko.wikipedia.org/wiki/%EC%98%81%EA%B5%AD_%EC%9D%8C%EC%95%85"
+                        target="_blank"
+                        rel="noreferrer"
+                        class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-indigo-500 to-blue-600 text-white font-semibold shadow-lg shadow-indigo-900/40 hover:scale-[1.02] transition"
+                    >
+                        위키백과에서 자세히 보기
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </section>
+            </main>
+
+            <footer class="fade-in delay-8 text-center text-slate-300 mt-12 text-sm">
+                © 2025 Global Pop Guide · Inspired by Wikipedia
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
+

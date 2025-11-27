@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>라틴 팝 소개</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .fade-in {
+            opacity: 0;
+            transform: translateY(16px);
+            animation: fadeInUp 0.9s ease forwards;
+        }
+        .delay-1 { animation-delay: 0.2s; }
+        .delay-2 { animation-delay: 0.4s; }
+        .delay-3 { animation-delay: 0.6s; }
+        .delay-4 { animation-delay: 0.8s; }
+        .delay-5 { animation-delay: 1s; }
+        .delay-6 { animation-delay: 1.2s; }
+        .delay-7 { animation-delay: 1.4s; }
+        .delay-8 { animation-delay: 1.6s; }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-slate-950 via-amber-950 to-rose-950 text-white min-h-screen">
+    <div class="relative overflow-hidden">
+        <div class="absolute inset-0 opacity-30 blur-3xl bg-[radial-gradient(circle_at_top,_#fbbf24,_transparent_45%),radial-gradient(circle_at_bottom,_#f97316,_transparent_55%)]"></div>
+        <div class="relative z-10 px-6 py-12 lg:py-16 max-w-6xl mx-auto">
+            <nav class="fade-in delay-1 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-white/10 bg-white/5 px-5 py-4 shadow-lg shadow-amber-900/40 backdrop-blur">
+                <a href="index.html" class="text-lg font-semibold tracking-wide text-amber-200">
+                    Global Pop Guide
+                </a>
+                <div class="flex flex-wrap items-center gap-3 text-sm font-medium text-slate-100">
+                    <a href="index.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">K-POP</a>
+                    <a href="us-pop.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">미국 팝</a>
+                    <a href="uk-pop.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">영국 팝</a>
+                    <a href="jp-pop.html" class="px-3 py-1 rounded-full border border-white/20 hover:bg-white/10 transition">일본 팝</a>
+                    <a href="latin-pop.html" aria-current="page" class="px-3 py-1 rounded-full bg-amber-500/20 border border-amber-300/60 text-white shadow-inner shadow-amber-900/30">라틴 팝</a>
+                </div>
+            </nav>
+            <header class="fade-in delay-2 text-center space-y-4">
+                <p class="uppercase tracking-[0.3em] text-amber-200 text-xs md:text-sm">Latin Pop Spotlight</p>
+                <h1 class="text-4xl md:text-5xl font-semibold bg-gradient-to-r from-amber-100 via-orange-100 to-rose-100 bg-clip-text text-transparent">
+                    라틴 팝, 리듬과 정열의 글로벌 파티
+                </h1>
+                <p class="text-slate-200 max-w-3xl mx-auto">
+                    살사, 레게톤, 보사노바, 쿠ుంబ리아 등이 뒤섞인 라틴 팝은 스페인어와 포르투갈어를 넘어
+                    전 세계 스트리밍 차트를 강타하며 다채로운 리듬 문화를 확산시키고 있습니다.
+                </p>
+                <div class="flex flex-wrap justify-center gap-3 text-sm text-amber-50">
+                    <span class="px-3 py-1 rounded-full border border-amber-500/50 bg-amber-500/10">Reggaetón</span>
+                    <span class="px-3 py-1 rounded-full border border-orange-500/50 bg-orange-500/10">Salsa</span>
+                    <span class="px-3 py-1 rounded-full border border-rose-500/50 bg-rose-500/10">Bossa Nova</span>
+                </div>
+            </header>
+
+            <main class="mt-12 space-y-10">
+                <section class="fade-in delay-3 grid gap-6 lg:grid-cols-[1.2fr_0.8fr] bg-white/5 border border-white/10 rounded-3xl p-6 md:p-10 shadow-2xl shadow-amber-900/40">
+                    <div>
+                        <h2 class="text-2xl font-semibold text-amber-100 mb-4">라틴 팝 연대기</h2>
+                        <p class="text-slate-100 leading-relaxed">
+                            1960년대 브라질 보사노바가 세계적 열풍을 만들었고, 1990년대에는 리키 마틴과 셀린 디온의
+                            스페인어 싱글이 빌보드 차트를 점령했습니다. 2010년대 이후에는 레게톤·트랩 비트와
+                            협업하는 교차 장르가 확산되며 ‘Despacito’, ‘Hawái’ 같은 글로벌 히트곡이 쏟아졌습니다.
+                        </p>
+                    </div>
+                    <div class="bg-slate-900/40 border border-white/5 rounded-2xl p-5 text-sm text-slate-200 space-y-3">
+                        <div>
+                            <p class="text-amber-200 font-medium">1960s</p>
+                            <p>보사노바, 볼레로의 세계적 인기</p>
+                        </div>
+                        <div>
+                            <p class="text-amber-200 font-medium">1990s</p>
+                            <p>라틴 익스플로전을 이끈 팝 스타들</p>
+                        </div>
+                        <div>
+                            <p class="text-amber-200 font-medium">2010s~</p>
+                            <p>레게톤·트랩·팝의 하이브리드 사운드</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="fade-in delay-4 grid gap-6 md:grid-cols-2">
+                    <div class="bg-gradient-to-br from-amber-900/70 to-slate-900/60 border border-amber-700/40 rounded-3xl p-6 md:p-8 shadow-xl shadow-amber-900/30">
+                        <h2 class="text-2xl font-semibold text-amber-100 mb-5">리듬 & 사운드 특징</h2>
+                        <ul class="space-y-4 text-slate-100">
+                            <li class="flex gap-3">
+                                <span class="text-amber-300">•</span>
+                                <span>클라베, 콩가, 팀발레 등 타악 중심의 폴리리듬</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-amber-300">•</span>
+                                <span>스페인어·포르투갈어 가사가 주는 라틴 정서와 즉흥성</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-amber-300">•</span>
+                                <span>댄스·클럽 씬과 밀접한 콜 앤드 리스폰스 구조</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-gradient-to-br from-slate-900/60 to-rose-900/70 border border-rose-700/40 rounded-3xl p-6 md:p-8 shadow-xl shadow-amber-900/30">
+                        <h2 class="text-2xl font-semibold text-rose-100 mb-5">대표 아티스트</h2>
+                        <ul class="space-y-3 text-slate-100">
+                            <li><span class="text-amber-200 font-semibold">Shakira</span> — 록과 라틴 리듬을 넘나드는 싱어송라이터</li>
+                            <li><span class="text-amber-200 font-semibold">Ricky Martin</span> — 1990년대 라틴 익스플로전의 주역</li>
+                            <li><span class="text-amber-200 font-semibold">Bad Bunny</span> — 레게톤·트랩을 결합한 차트 정복자</li>
+                            <li><span class="text-amber-200 font-semibold">Rosalía</span> — 플라멩코·팝·실험 전자음의 융합</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="fade-in delay-5 grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+                    <div class="bg-white/5 border border-white/10 rounded-3xl p-6 md:p-8 shadow-xl shadow-amber-900/40">
+                        <h2 class="text-2xl font-semibold text-amber-100 mb-4">문화적 영향</h2>
+                        <p class="text-slate-100 mb-4">
+                            라틴 그래미, 프리메라 줄리아, 비냐 델 마르 페스티벌 등 다국적 시상식과 축제가
+                            아티스트 교류를 촉진합니다. 댄스 스튜디오와 틱톡 챌린지가 결합해 안무가 빠르게 확산되고,
+                            스페인어 가사가 글로벌 팝 씬에서도 자연스럽게 소비되고 있습니다.
+                        </p>
+                        <p class="text-slate-200 text-sm">
+                            동시에 지역별 저작권 제도, 공연 인프라 격차, 언어 장벽을 넘어서는 전략도 논의됩니다.
+                        </p>
+                    </div>
+                    <div class="fade-in delay-6 bg-gradient-to-br from-amber-800/60 to-rose-900/70 border border-amber-700/30 rounded-3xl p-6 md:p-8 shadow-2xl shadow-amber-900/40">
+                        <h3 class="text-xl font-semibold text-amber-100 mb-4">한눈에 보기</h3>
+                        <dl class="space-y-4 text-slate-100">
+                            <div>
+                                <dt class="text-amber-200 text-sm">핵심 키워드</dt>
+                                <dd class="text-lg">레게톤 · 살사 · 글로벌 콜라보</dd>
+                            </div>
+                            <div>
+                                <dt class="text-amber-200 text-sm">대표 무대</dt>
+                                <dd class="text-lg">Latin Grammy, Viña del Mar, Premios Lo Nuestro</dd>
+                            </div>
+                            <div>
+                                <dt class="text-amber-200 text-sm">산업 과제</dt>
+                                <dd class="text-lg">지역 불균형, 언어 진입장벽, 투어 인프라</dd>
+                            </div>
+                        </dl>
+                    </div>
+                </section>
+
+                <section class="fade-in delay-7 bg-white/5 border border-white/10 rounded-3xl p-6 md:p-8 text-center shadow-xl shadow-amber-900/40">
+                    <h2 class="text-2xl font-semibold text-amber-100 mb-3">더 알아보기</h2>
+                    <p class="text-slate-100 mb-4">
+                        라틴 음악의 역사와 아티스트 데이터는 위키백과 라틴 음악 문서에서 더 확인할 수 있습니다.
+                    </p>
+                    <a
+                        href="https://ko.wikipedia.org/wiki/%EB%9D%BC%ED%8B%B4_%EC%9D%8C%EC%95%85"
+                        target="_blank"
+                        rel="noreferrer"
+                        class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-amber-500 to-rose-500 text-white font-semibold shadow-lg shadow-amber-900/40 hover:scale-[1.02] transition"
+                    >
+                        위키백과에서 자세히 보기
+                        <span aria-hidden="true">→</span>
+                    </a>
+                </section>
+            </main>
+
+            <footer class="fade-in delay-8 text-center text-slate-300 mt-12 text-sm">
+                © 2025 Global Pop Guide · Inspired by Wikipedia
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
+
